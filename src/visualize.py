@@ -43,10 +43,10 @@ else:
 name = args.key.lstrip('#')
 
 # Labels for bar graph 
-plt.title(f'{name}')
 plt.xlabel(f'{x_label}')
 plt.ylabel('Count of Tweets')
- 
+plt.title(f'{name} count in {x_label}')
+
 # Rotated the x-axis labels for better readability
 plt.xticks(rotation=45, ha='right')
 plt.tight_layout()
