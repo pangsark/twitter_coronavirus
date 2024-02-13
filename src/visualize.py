@@ -40,7 +40,7 @@ if args.input_path.endswith('country'):
 else:
     x_label = 'language'
 
-name = args.key.lstrip('#')
+name = args.key
 
 # Labels for bar graph 
 plt.xlabel(f'{x_label}')
