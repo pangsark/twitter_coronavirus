@@ -45,7 +45,7 @@ name = args.key
 # Labels for bar graph 
 plt.xlabel(f'{x_label}')
 plt.ylabel('Count of Tweets')
-plt.title(f'{name} count in {x_label}')
+plt.title(f'{name} count by {x_label}')
 
 # Rotated the x-axis labels for better readability
 plt.xticks(rotation=45, ha='right')
