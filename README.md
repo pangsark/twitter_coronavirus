@@ -37,16 +37,16 @@ showing the top 10 countries and languages with these hashtags.
 As expected, the US and English were first with "#coronavirus" and Korea and Korean were first with "#코로나바이러스". 
 
 The top 10 countries with '#coronavirus' is shown by this plot:  
-![alt text](/plots/'#coronavirus_country_output_plot.png') 
+![alt text]('/plots/#coronavirus_country_output_plot.png') 
 
 The top 10 languages with '#coronavirus' is shown by this plot: 
-![alt text](/plots/'#coronavirus_language_output_plot.png')
+![alt text]('/plots/#coronavirus_language_output_plot.png')
 
 The top 10 countries with '#코로나바이러스' is shown by this plot:
-![alt text](/plots/'#코로나바이러스_country_output_plot.png')
+![alt text]('/plots/#코로나바이러스_country_output_plot.png')
 
 The top 10 languages with '#코로나바이러스' is shown by this plot: 
-![alt text](/plots/'#코로나바이러스_language_output_plot.png')
+![alt text]('/plots/#코로나바이러스_language_output_plot.png')
 
 The second reduce file `alternative_reduce.py` traced the hashtags: '#coronavirus', 'covid-19', and '#sick' and outputted a line graph that 
 showed the usage of these hashtags (count of tweets) per day for the year 2020. 
