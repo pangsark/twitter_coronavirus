@@ -29,7 +29,7 @@ which country it was tweeted from. Then I created `visualize.py` that plots the 
 was created to count all of the tweets with a specific hashtag over 2020. Then within the same program, it created a line plot that visualized the number of times
 the specific hashtag was tweeted per day. 
 
-**Results** 
+**Results:** 
 
 The first reduce file `reduce.py` and `visualize.py` created a plot that traced all the hashtags: "#coronavirus" and "#코로나바이러스" and outputted a bar graph
 showing the top 10 countries and languages with these hashtags. 
