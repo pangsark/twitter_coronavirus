@@ -50,5 +50,5 @@ The top 10 languages with '#코로나바이러스' is shown by this plot:
 
 The second reduce file `alternative_reduce.py` traced the hashtags: '#coronavirus', 'covid-19', and '#sick' and outputted a line graph that 
 showed the usage of these hashtags (count of tweets) per day for the year 2020. 
-![alt text](/plots/img hashtag_count.png)
+![alt text](/plots/hashtag_count.png)
 
