@@ -33,6 +33,9 @@ plt.xlabel('Days in the Year' )
 plt.ylabel('Count of Hashtags')
 plt.title('Count of Tweets by Hashtag in 2020')
 
+# Key for Hashtags
+plt.legend()
+
 # Rotated the x-axis labels for better readability
 plt.xticks(rotation=45, ha='right')
 plt.tight_layout()
