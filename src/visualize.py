@@ -41,6 +41,7 @@ else:
     x_label = 'language'
 
 name = args.key
+output_name = args.key.lstrip('#')
 
 # Labels for bar graph 
 plt.xlabel(f'{x_label}')
@@ -52,4 +53,4 @@ plt.xticks(rotation=45, ha='right')
 plt.tight_layout()
 
 # Naming the output file
-plt.savefig(f'{name}_{x_label}_output_plot.png')
+plt.savefig(f'{output_name}_{x_label}_output_plot.png')
